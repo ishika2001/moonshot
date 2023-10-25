@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/201e4840-d6db-4ed4-81aa-076ba9524d06/resourceGroups/rg-cep-dev/providers/Microsoft.Web/sites/app-cep-web-dev",
+    "appService.deploySubpath": "."
+}

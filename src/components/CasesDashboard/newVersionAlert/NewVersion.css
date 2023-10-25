@@ -1,0 +1,56 @@
+.new-version-alert .modal-content {
+ background-color: transparent !important;
+ border: none !important;
+ border-radius:16px !important;
+}
+.modal-footer{
+    border: none !important;
+    justify-content: center !important;
+    padding: .8rem 0 !important;
+}
+.rocket-image{
+    width: 100% !important;
+}
+.para-content{
+    background-color: #ffffff;
+    border-radius: 0 0 16px 16px;
+    padding:0 .8rem;
+}
+.close-alert {
+    height: 2.2rem;
+    width: 6rem;
+    background: #09234F !important;
+    border: 1px solid #B1B1B1 !important;
+    border-radius: 8px !important;
+    margin-top: 10px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center !important;
+}
+.button-para {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: .5rem;
+}
+.version-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #2F5390;
+    font-weight: bold;
+}
+li::marker {
+    color: red; /* Change the color to your desired value */
+  }
+  
+@media (min-width: 576px){
+    .modal-sm {
+        max-width: 340px !important;
+    }
+}

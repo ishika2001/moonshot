@@ -1,0 +1,363 @@
+.App {
+    text-align: center;
+}
+
+.nav {
+    background: #203354;
+    height: 72px;
+    padding: 13px !important;
+}
+
+.center-item {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.job-counts {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.Img {
+    height: 2.6rem;
+}
+
+.table-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-header-job {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    background: none;
+    color: black;
+    text-align: inherit;
+    height: 42px !important;
+    width: 420px !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 10px !important;
+    background-color: #F3F9FF !important;
+}
+
+.dropdown {
+
+    margin: 1px auto;
+    height: 42px;
+    width: 420px;
+}
+
+.dropdown .dropdown-btn {
+    padding: 13px 20px;
+    background-color: #1cc293;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    color: #333;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    height: 42px !important;
+    width: 420px !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 10px !important;
+    background-color: #F3F9FF !important;
+
+}
+
+.dropdown .dropdown-content {
+    position: absolute;
+    top: 112%;
+    left: 0px;
+    padding: 14px;
+    background: #F3F9FF;
+    box-shadow: 3px 3px 10px 6px rgb(0 0 0 / 6%);
+    font-weight: 500;
+    color: #333;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold !important;
+}
+
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #12b5d2;
+}
+
+.row {
+
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+
+.createJob {
+    height: 40px;
+    width: 168px;
+    border-radius: 8px;
+    padding: 8px;
+    background: #09234F !important;
+    background: #09234F !important;
+    border: 1px solid #B1B1B1 !important;
+    border-radius: 8px !important;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.togbtn {
+    background-color: white;
+    border: none;
+    margin-left: -65px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 0 0 1rem 0;
+}
+.log{
+    font-size: 1rem !important;
+}
+
+.status-button {
+    background: #F87171 !important;
+    border-radius: 8px !important;
+    border-color: #F87171 !important;
+    font-size: .9rem !important;
+    padding: 0.3rem 0.5rem !important;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+
+.statusSuccessButton {
+    background: #12A474 !important;
+    border-radius: 8px !important;
+    border-color: #12A474 !important;
+}
+
+.downloadButton {
+    background: #DBDBDB !important;
+    border-radius: 8px !important;
+    border-color: #DBDBDB !important;
+}
+
+.down-btn {
+    display: flex;
+    width: 5.5rem;
+    justify-content: space-between;
+    align-items: center
+}
+
+.grcVYe div:first-child {
+    white-space: break-spaces !important;
+}
+
+.download-success-button {
+    background: #0088FF !important;
+    border-radius: 8px !important;
+    border-color: #0088FF !important;
+    padding: 0.3rem 0.5rem !important;
+
+}
+
+.down-write {
+    font-size: .9rem;
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+}
+
+.heading-verify {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.endContent {
+    justify-content: flex-end;
+}
+
+.jobModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-div {
+    padding: .6rem 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login-submit {
+    width: 60% !important;
+    height: 3.5rem !important;
+    background: #06152B !important;
+    border-radius: 10px !important;
+}
+
+.login-input {
+    width: 100% !important;
+    background-color: #F3F9FF !important;
+    height: 38px !important;
+    border: none !important;
+    padding: 0px 15px !important;
+}
+
+.closebtnmodel {
+    margin-left: 660px;
+}
+
+.SelectS {
+    color: gray;
+    font-weight: bold;
+
+}
+
+.CreateNewJob {
+    font-weight: bold;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.emailError {
+    color: red;
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: .5rem;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.img {
+    display: block
+}
+
+.error {
+    color: "red";
+    font-size: 30px
+}
+
+.fXvQyv {
+    min-width: 11rem !important;
+    max-width: 19rem !important;
+}
+
+.cHDXZm {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.czCjuP {
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+@media (min-width:1200px) {
+    .fhoGqu {
+        overflow-x: hidden !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .img {
+        display: none
+    }
+
+    .table-header {
+        position: absolute;
+        top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .titleshift {
+        margin-left: 40px;
+        margin-bottom: -13px;
+    }
+
+    .searchshift {
+        padding: 8%;
+        margin-left: 18px;
+    }
+
+    .button-shift {
+        margin-top: -25px;
+        margin-left: 7px;
+    }
+
+    .TableTable {
+        margin-left: 15px;
+    }
+
+    .btnShift {
+        margin-right: 390px;
+    }
+
+    .CreateSecJob {
+        font-size: 20px;
+        padding-bottom: -100px;
+    }
+
+    .SelectS {
+        margin-top: 20px;
+    }
+}

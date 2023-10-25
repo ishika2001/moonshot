@@ -1,0 +1,37 @@
+.css-13cymwt-control {
+    color: #06152B !important;
+    text-align: inherit;
+    height: 42px !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 5px !important;
+    background-color: #F3F9FF !important;
+}
+
+.search-modal {
+    text-align: inherit;
+    height: 42px !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 5px !important;
+    background-color: #F3F9FF !important;
+}
+
+.marg {
+    margin-right: 8px !important;
+    margin-bottom: 3px !important;
+}
+
+.create {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.formDetails {
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+}

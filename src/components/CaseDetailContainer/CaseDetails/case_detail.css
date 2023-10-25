@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&display=swap');
+
+/* CaseDetail section */
+.first {
+    height: 49px;
+    background-color: #F1F2F3 !important;
+    align-items: center;
+}
+
+.both {
+    display: flex !important;
+    align-items: center !important;
+}
+
+#case-common {
+    margin-right: 6px;
+}
+
+.cse-Text {
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 22px !important;
+    color: #06152B !important;
+    margin-top: 4px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    margin-bottom: 10px !important;
+}
+
+.second-detail-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #06152B !important;
+}
+
+.detail-box {
+    border: 1px solid #DCDCDC;
+}
+
+.case-detail-text {
+    color: #5D7285 !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D7285;
+}
+
+.open {
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #F87171 !important;
+    border-radius: 8px !important;
+    border-color: #F87171 !important;
+    padding: 2px 8px !important;
+    align-items: center !important;
+    width: 57px !important;
+    height: 31px !important;
+}
+
+.open span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.inner-btn {
+    background-color: #F87171;
+    border: none;
+    padding: 0.42rem 0.8rem;
+    font-size: .9rem;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 9px;
+}
+
+.inner-btn2 {
+    background-color: #F38418;
+    border: none;
+    padding: 0.42rem 0.8rem;
+    font-size: .9rem;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 9px;
+
+}
+
+.second {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+hr:not([size]) {
+    height: 0px !important;
+}
+
+hr {
+    margin: 0.5rem 0 !important;
+}
+
+.align {
+    align-items: center !important;
+}
+
+.border {
+    border-top-style: white !important;
+}
+
+
+
+/* Modal */
+.drop {
+    margin: 1px auto;
+    height: 42px;
+    width: 420px;
+}
+
+.drop .dropdown-content_drop {
+    top: 112%;
+    left: 0px;
+    padding: 14px;
+    background: #F3F9FF;
+    box-shadow: 3px 3px 10px 6px rgb(0 0 0 / 6%);
+    font-weight: 500;
+    color: rgba(93, 114, 133, 0.7) !important;
+    width: 100%;
+    border-radius: 10px;
+}
+.SelectS {
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 0.2rem !important;
+    margin-top: 12px !important;
+}
+
+.drop .dropdown-content_drop .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold !important;
+    color: rgba(93, 114, 133, 0.7) !important;
+}
+
+#s1 {
+    color: rgba(93, 114, 133, 0.7) !important;
+}
+
+.drop .dropdown-content_drop .dropdown-item:hover {
+    background: #12b5d2;
+}
+
+.dropdown-content_drop {
+    position: sticky;
+    z-index: 99999;
+}
+
+.drop .dropdown-btn {
+    padding: 13px 20px;
+    background-color: #1cc293;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    color: rgba(93, 114, 133, 0.7) !important;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    height: 42px !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 5px !important;
+    background-color: #F3F9FF !important;
+}
+
+#max {
+    margin-right: 6px !important;
+}
+
+@media (min-width: 992px) {
+
+    .modal-lg,
+    .modal-xl {
+        max-width: 700px !important;
+    }
+}
+
+/* Job */
+.job-col {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+.job-col2 {
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-right: 28px !important;
+}
+
+.padding-bot {
+    padding-bottom: 6px !important;
+}

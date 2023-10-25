@@ -1,0 +1,92 @@
+.header-row {
+    padding: 4px 4px 4px 4px;
+}
+.header-col1{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+.arrow {
+    margin: 8px !important;
+}
+.cases {
+    font-family: 'Poppins' !important;
+    margin: 4px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D7285;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.cse-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #06152B !important;
+    margin-top: 4px !important;
+    margin-left: 4px !important;
+    margin-right: 4px !important;
+    margin-bottom: 10px !important;
+}
+.header-col2{
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin-right: 28px !important;
+}
+.share {
+    background-color: #09234F !important;
+    color: #fff !important;
+    border-color: #09234F !important;
+    margin: 2px !important;
+    padding: 0.2rem 1rem !important;
+    height: 85% !important;
+    border-radius: 0 !important;
+}
+
+.share span {
+    font-family: 'Roboto' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #FFFFFF !important;
+}
+
+.edit {
+    background-color: #5D7285 !important;
+    color: #fff !important;
+    border-color: #5D7285 !important;
+    margin: 2px !important;
+    padding: 0.2rem 1rem !important;
+    height: 85% !important;
+    border-radius: 0 !important;
+}
+
+
+.delete {
+    background-color: #F87171 !important;
+    color: #fff !important;
+    border-color: #F87171 !important;
+    margin: 2px !important;
+    padding: 0.2rem 1rem !important;
+    height: 85% !important;
+    border-radius: 0 !important;
+}
+.header-btn {
+    display: flex;
+    height: 100%;
+    align-items: center;
+} 
+#header-common{
+    margin-right: 6px !important;
+}
+.box {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}

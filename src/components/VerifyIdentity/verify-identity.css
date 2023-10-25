@@ -1,0 +1,54 @@
+.col-style {
+    display: flex !important;
+    justify-content: center;
+}
+
+.card-style {
+    width: 22rem;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.1);
+    margin-top: 6rem;
+}
+
+.first-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.title{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+hr {
+    width: 100%;
+}
+
+.next-btn {
+    width: 100% !important;
+}
+
+.btn {
+    border-radius: 0rem;
+}
+.border {
+       border-radius: 0rem !important;
+}
+.input-box{
+        padding: 2px !important;
+        display: flex;
+        border: 1px solid #ced4da !important;
+}
+.login-input-identity{
+    width: 100% !important;
+    height: 38px !important;
+    border: none !important;
+    padding: 0px 15px !important;
+}
+.info-btn{
+    padding: 6px;
+}

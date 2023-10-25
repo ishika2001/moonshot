@@ -1,0 +1,144 @@
+.attachment-box {
+  border: 1px solid #DCDCDC;
+  margin: 25px, 0px, 0px, 25px;
+}
+
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.custom-file-upload input[type="file"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+
+.first-row {
+  background-color: #F1F2F3 !important;
+  height: 49px;
+  align-items: center;
+}
+
+.col-center-css {
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.col-end-css {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.col-extra {
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin: 4px;
+}
+
+.second-row {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  max-height: 20rem;
+  overflow: auto;
+}
+
+.image-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Width and height of the scrollbar track */
+::-webkit-scrollbar {
+  width: .4rem;
+  height: 10px;
+}
+
+/* Track background color */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #9c9c9c;
+
+}
+
+/* Hover styles for the scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.text {
+  color: #4C6175 !important;
+  background: #FFFFFF !important;
+  border: 0.5px solid #C6C6C6 !important;
+  border-radius: 2px !important;
+  padding: 6px;
+  font-style: italic !important;
+}
+
+.add {
+  font-family: 'Roboto' !important;
+  background-color: #5D7285 !important;
+  color: #fff !important;
+  border-color: #5D7285 !important;
+  border-radius: 8px !important;
+  margin-top: 5px;
+  align-items: center;
+  height: 35px !important;
+  font-family: 'Roboto', sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  color: #FFFFFF;
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  z-index: -111 !important;
+}
+
+#attachment-common {
+  margin-right: 6px !important;
+}
+
+.uploaded-data {
+  cursor: pointer;
+  margin-bottom: 2px;
+  transition: all 500ms;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card {
+  transition: all 500ms;
+  border-radius: 7px !important;
+}
+.file-icon{
+  height: 50px;
+  width: 40px;
+}
+.division{
+  height: 100px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.initial-img{
+  height: 100px;
+  width: 150px;
+}

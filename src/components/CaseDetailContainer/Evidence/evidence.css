@@ -1,0 +1,232 @@
+.evid-firstContent {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #06152B;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.evid_div {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.evid_doc_img {
+    margin-bottom: 8px !important;
+    margin-right: 4px !important;
+}
+
+.evid_timeIcon {
+    color: #5D7285;
+    font-size: 1.2rem;
+}
+
+.one1 {
+    background: #F1F2F3 !important;
+    height: 49px;
+    align-items: center;
+}
+
+.evidence-box {
+    box-sizing: border-box;
+    border: 1px solid #DCDCDC;
+}
+
+.evid-col-one {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+.evid {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5D7285 !important;
+}
+
+.evid-col-two {
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.two {
+    margin-top: 8px;
+}
+
+.evid-col-three {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+.btn-text {
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    display: flex !important;
+    align-items: center !important;
+    color: #4C6175 !important;
+    background: #F1F2F3 !important;
+    border-color: #C6C6C6 !important;
+}
+
+.btn-text span {
+    font-family: 'Roboto' !important;
+}
+
+.evid-col-four {
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin: 4px !important;
+}
+
+.add1 {
+    font-family: 'Roboto' !important;
+    background-color: #5D7285 !important;
+    color: #fff !important;
+    border-color: #5D7285 !important;
+    border-radius: 8px !important;
+    margin-top: 5px;
+    align-items: center;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #FFFFFF;
+    display: flex !important;
+    align-items: center !important;
+}
+.add2 {
+    margin-right: 3px !important;
+    background-color: #5D7285 !important;
+    color: #fff !important;
+    border-color: #5D7285 !important;
+    border-radius: 8px !important;
+    margin-top: 5px;
+    align-items: center;
+    height: 35px !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    display: flex !important;
+}
+.fOJMQJ{
+cursor: pointer;
+}
+.evid-tableCaseContent {
+    width: 100%;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.table {
+    margin-bottom: 0 !important;
+    border-collapse: collapse;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    table-layout: fixed !important;
+}
+
+.evid-second-detail-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #06152B !important;
+}
+
+.evid-second-detail-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 22px !important;
+    color: #06152B !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+
+tr:first-child {
+    border-top: white;
+}
+
+tr:last-child {
+    border-bottom: white;
+}
+
+.table td,
+.table th {
+    border-top: 0px solid #dee2e6 !important;
+}
+
+.created {
+    font-family: 'Roboto', sans-serif !important;
+    background: #F87171 !important;
+    border-radius: 8px !important;
+    border-color: #F87171 !important;
+    padding: 2px 8px !important;
+    align-items: center !important;
+    width: 93px;
+    height: 33px;
+}
+
+.created span {
+    font-family: 'Roboto' !important;
+    width: 77px;
+    height: 17px;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: center !important;
+    color: #FFFFFF;
+}
+
+.no-header .rdt_TableHeadRow {
+    display: none !important;
+    padding: .7rem .7rem !important;
+}
+
+.no-header {
+    padding: 0.7rem 1.4rem 0.7rem 0.7rem !important;
+}
+.status-btn {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+.success {
+    font-family: 'Roboto', sans-serif !important;
+    padding: 2px 8px !important;
+    width: 93px !important;
+    background: #12A474 !important;
+    border-radius: 8px !important;
+    border-color: #12A474 !important;
+}
+
+#evid-group {
+    margin-right: 8px;
+}
+
+#evid-common {
+    margin-right: 6px;
+}
+#refresh{
+    margin-left: 2px;
+    font-size: 1.5rem;
+    color: white;
+}

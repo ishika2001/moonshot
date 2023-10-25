@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.clear-icon {
+    cursor: pointer;
+    color: red;
+}
+.login{
+    padding-right: calc(var(--bs-gutter-x) * .0) !important; 
+     padding-left: calc(var(--bs-gutter-x) * .0) !important;
+}
+.cross-btn {
+    padding: 5px !important
+}
+
+.input-container {
+    padding: 2px !important;
+    display: flex;
+    border: 1px solid #1778F2 !important;
+    border-radius: 10px !important;
+    background-color: #F3F9FF !important;
+}
+
+.main-login-container {
+    overflow: hidden;
+    width: 100%;
+}
+
+.img-content {
+    width: 50% !important;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.input-part {
+    width: 50% !important;
+}
+
+.inner-input {
+    width: 70% !important;
+}
+
+.inner-content {
+    padding: 0.4rem .9rem !important;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#OtpError {
+    border: 1px solid #f2174d !important;
+}
+
+.selectoption {
+    font-weight: bold !important;
+}
+
+.upbtn {
+    display: flex;
+}
+
+.upbtn>span {
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+/* for header btn */
+#common {
+    margin-right: 6px;
+}
+
+/* ...... */
+
+has context menu
+/* css for table */
+
+.table-content {
+    width: 100%;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.gnkBLI {
+    max-width: 98vw !important;
+}
+
+.bloiII {
+    justify-content: flex-end;
+    width: 98%;
+}
+
+.fJKxXR {
+    justify-content: space-between;
+    padding-top: 1%;
+}
+
+.jjrcIg {
+    justify-content: space-between !important;
+    background-color: transparent !important;
+    padding: 0 2% 0 1% !important;
+}
+
+.set-padding {
+    padding: 10px 60px !important;
+}
+.ewwrCE {
+    -webkit-box-flex: 1;
+    flex: none !important;
+}
+
+.jXmsrn {
+    font-size: 1rem !important;
+}
+
+.cssvQL {
+    padding-left: .5rem !important;
+}
+
+/* ............................ */
+
+/* style for modal */
+.modal-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: none !important;
+}
+
+/* .....case-component...... */
+.Fsize {
+    color: #4C6175;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.sub-header {
+    padding: 2.5% 4%;
+}
+
+.search-content {
+    max-width: 100% !important;
+    background-color: #F3F9FF !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: .45rem !important;
+    max-height: 3.5rem !important;
+    min-height: 2.5rem !important;
+}
+
+.search-input {
+    width: 90%;
+    border: none;
+    background-color: transparent !important;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5D7285 !important;
+}
+
+.my-img {
+    margin-left: .100rem !important;
+    margin-bottom: 4px !important;
+    margin-right: 6px !important;
+}
+
+input:focus {
+    outline: none;
+}
+
+.create-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.set {
+    padding: 1.5% !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+}
+
+.create-case-button {
+    padding: 2% 5% !important;
+    background: #09234F !important;
+    border: 1px solid #B1B1B1 !important;
+    border-radius: .5rem !important;
+}
+
+
+inner-content {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.icons {
+    font-size: .9rem;
+    color: #4C6175;
+    font-weight: 500;
+}
+
+.grcVYe>div {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.fSjpiw {
+    background-color: #F1F2F3 !important;
+}
+
+.cell-content {
+    height: 100%;
+    width: 100%;
+}
+
+.first-content {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #06152B;
+    height: 100%;
+}
+
+.sub-content {
+    font-size: .94rem;
+    display: flex;
+    flex-wrap: wrap;
+    color: #5D7285;
+    padding: 4% 0 4% 1%;
+}
+
+.sub-content-item {
+    margin-left: 4%;
+}
+
+.inner-btn {
+    background-color: #F87171;
+    border: none;
+    padding: 0.42rem 0.8rem;
+    font-size: .9rem;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 9px;
+}
+
+.inner-btn2 {
+    background-color: #F38418;
+    border: none;
+    padding: 0.42rem 0.8rem;
+    font-size: .9rem;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 9px;
+
+}
+
+.time-icon {
+    color: #5D7285;
+    font-size: 1.2rem;
+}
+
+.time-icon-other {
+    color: #5D7285;
+    font-size: 1.5rem;
+    display: flex;
+    margin-right: 0.25rem;
+}
+
+.date-content {
+    display: flex;
+    height: fit-content;
+    align-items: flex-end;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #06152B;
+
+}
+
+.date-set {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+}
+
+.created-by {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #5D7285;
+    display: flex;
+    justify-content: flex-end
+}
+
+.bYhEs {
+    justify-content: flex-start !important;
+}
+
+.eFFRQY {
+    justify-content: flex-start !important;
+}
+
+.table-case-content {
+    width: 100%;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.ffZcUK {
+    align-items: baseline !important;
+}
+.form_grup {
+    border-radius: 10px !important;
+}
+
+
+
+.type-content {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #06152B;
+}
+
+.location-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.iLWAKD {
+    padding: 2% 1% 1% 1.5%;
+    justify-content: space-between !important;
+}
+
+.cTzuWo {
+    color: #5D7285;
+}
+
+.cssvQL {
+    padding-left: 6px;
+}
+
+/* ................. */
+@media (max-width:700px) {
+    .img-content {
+        display: none;
+    }
+}
+
+@media (min-width:1500px) {
+    .inner-input {
+        width: 45rem !important;
+    }
+
+.home_login_Input {
+    width: 100% !important;
+    border: 1px solid #1778F2 !important;
+    border-radius: 10px !important;
+    height: 38px !important;
+    background-color: #F3F9FF !important;
+}
+
+.resend {
+    display: block !important;
+    text-align: center !important;
+    cursor: pointer !important;
+    color:#09234F;
+    font-weight: 500;
+}
+.alert-msg{
+    color:red;
+} }

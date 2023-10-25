@@ -1,0 +1,365 @@
+.dialogbox {
+    z-index: 9999999999999999;
+    border: none;
+    background-color: white;
+    width: 800px !important;
+    height: 500px !important;
+}
+
+.dialogStyles {
+    z-index: 9999999999999999;
+    border: none;
+    background-color: white;
+    width: 630px !important;
+    height: 100vh !important;
+}
+/*  */
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 1;
+}
+
+.modal-body {
+    max-height: 90% !important;
+    width: 100% !important;
+}
+
+.preview-img {
+    width: 90%
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+    max-height: 80vh;
+}
+
+.download-Btn,
+.preview-close-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.down-icon,
+.close-icon {
+    font-size: 20px;
+}
+
+.inner-items {
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    width: 100% !important;
+    align-items: center !important;
+}
+
+/* image size  */
+.eBJGKY {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+
+/* edit preview */
+.gkHAVl {
+    background-color: transparent !important;
+}
+
+.dbztSh {
+    background-color: transparent !important;
+}
+
+.hzcCgO {
+    display: block !important;
+}
+
+.kruETB {
+    color: #ffffff !important;
+    min-height: 1.2rem !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
+
+.iFGQRN {
+    color: #ffffff !important;
+    min-height: 1.2rem !important;
+    padding: 0px !important;
+    background-color: transparent !important;
+}
+
+/* hide background from png files */
+.cOfBKL {
+    background-size: 0px !important;
+}
+
+.vyFRj {
+    background-size: 0px !important;
+}
+
+/* .................. */
+.jHsBFh {
+    background-color: transparent !important;
+}
+
+
+
+.kbsMlj {
+    width: 9rem !important;
+    height: 1.9rem !important;
+}
+
+.gZwtEy,
+.cJyPAL {
+    background-color: transparent !important;
+    padding: 0px !important;
+}
+
+.iHwWxS {
+    display: flex !important;
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+    -webkit-box-align: center !important;
+    align-items: center !important;
+    border: 1px solid !important;
+    outline: none !important;
+    cursor: pointer !important;
+    text-decoration: none !important;
+    border-radius: 35px !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px !important;
+    border-color: var(--primary-color) !important;
+    color: var(--primary-color) !important;
+    font-size: 1rem !important;
+}
+
+.iHwWxS:hover {
+    color: #ffffff !important;
+    background-color: var(--primary-color) !important;
+}
+
+.main-preview-container {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.599);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999999999;
+}
+
+.preview-close-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.preview-close-btn:hover {
+    color: rgb(255, 255, 255) !important;
+}
+
+.image-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.down-icon {
+    color: rgb(129, 123, 123);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.down-icon:hover {
+    color: #070707;
+}
+
+.close-icon {
+    font-size: 1.5rem;
+    color: rgb(129, 123, 123);
+
+}
+
+.close-icon:hover {
+    color: #121212;
+}
+
+.image {
+    height: 15rem;
+    width: 15rem;
+}
+
+/* for image */
+.cAObcv {
+    width: 45rem;
+    height: 27rem;
+}
+
+.jIxHED {
+    width: 22rem;
+}
+
+/* for doc view */
+.ieiYEj {
+    width: 95% !important;
+    height: 95% !important;
+    margin-left: 1rem;
+}
+
+.cTsCpP {
+    background-image: none !important;
+}
+
+.header-content {
+    position: relative !important;
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.gLhMdl {
+    background-color: transparent !important;
+}
+
+.gRrbxB {
+    background-color: transparent !important;
+}
+
+.hzcCgO {
+    background-color: transparent !important;
+    min-height: 10px !important;
+}
+
+.knvCSu::-webkit-scrollbar {
+    display: none;
+}
+
+.knvCSu {
+    overflow: auto;
+}
+
+.hjDSsm::-webkit-scrollbar {
+    display: none;
+}
+
+.hjDSsm {
+    overflow: auto;
+}
+
+.bhMrIO {
+    color: #ffffff !important;
+}
+
+.dbztSh {
+    align-items: center !important;
+}
+
+.showFIles {
+    /* height: 31rem !important; */
+    width: 50rem !important;
+    max-height: 37rem;
+}
+
+.text-color {
+    color: rgb(221, 214, 214);
+    font-size: .8rem;
+    margin-left: 0.5rem;
+}
+
+.text-color:hover {
+    color: #ffffff;
+
+}
+
+@media (max-width:900px) {
+    .cAObcv {
+        width: 35rem !important;
+        height: 23rem !important;
+    }
+
+    .showFIles {
+        max-height: 31rem !important;
+        width: 40rem !important;
+    }
+}
+
+@media (max-width:710px) {
+    .cAObcv {
+        width: 30rem !important;
+        height: 20rem !important;
+    }
+
+    .showFIles {
+        max-height: 31rem !important;
+        width: 35rem !important;
+    }
+}
+
+@media (max-width:610px) {
+    .cAObcv {
+        width: 27rem !important;
+        height: 17rem !important;
+    }
+
+    .showFIles {
+        max-height: 31rem !important;
+        width: 30rem !important;
+    }
+}
+
+@media (max-width:540px) {
+    .showFIles {
+        /* max-height: 23rem !important; */
+        width: 22rem !important;
+    }
+
+    .kbsMlj {
+        width: 8rem !important;
+        height: 1.5rem !important;
+    }
+
+    .jIxHED {
+        width: 18rem !important;
+    }
+
+    .iHwWxS {
+        font-size: 80% !important;
+    }
+}
+
+@media (max-width:380px) {
+    .showFIles {
+        width: 15rem !important;
+    }
+
+    .image {
+        height: 10rem !important;
+        width: 10rem !important;
+    }
+
+    .jIxHED {
+        width: 11rem !important;
+    }
+
+    .iHwWxS {
+        font-size: 70% !important;
+    }
+
+    .kbsMlj {
+        width: 6rem !important;
+        height: 1.5rem !important;
+        /* background-color: rgb(255, 255, 255); */
+    }
+}
