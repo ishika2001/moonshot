@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Image, Button, Row, Col, FormGroup} from "react-bootstrap";
-import myImage from "../assets/Image.png";
+// import myImage from "";
 import logo from "../assets/logo.png";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -86,7 +86,7 @@ export const VerifyScreen = () => {
         <Col className="img-content">
           <Image
             className="img"
-            src={myImage}
+            src={'../assets/Image.png'}
             alt="My pic"
             style={{ width: "85%" }}
           />

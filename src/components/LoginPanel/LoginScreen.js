@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { useNavigate } from "react-router-dom";
 import { Image, Button, Col, Row, FormGroup } from "react-bootstrap";
-import myImage from "../assets/Image.png";
+// import myImage from "../assets/Image.png";
 import logo from "../assets/logo.png";
 import { useDispatch } from "react-redux";
 import { emailGet } from "../../slices/loginSlice";
@@ -44,7 +44,7 @@ export const LoginScreen = () => {
         <Col className="col img-content">
           <Image
             className="img-responsive img"
-            src={myImage}
+            src={'../assets/Image.png'}
             alt="My pic"
             style={{ width: "85%" }}
           />
